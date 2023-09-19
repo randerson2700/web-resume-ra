@@ -50,10 +50,18 @@ body {
 .section ul {
     margin-left: 20px;
     padding: 0;
+    line-height: .75;
+    font-size: 12px;
 }
-
+ul {
+    font-size: 12px; 
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
 .bold {
     font-weight: bold;
+    line-height: .75;
 }
 /*chat gpt code */
 .left-text {
