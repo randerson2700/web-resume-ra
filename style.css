@@ -23,7 +23,7 @@ body {
     margin: 0;
     text-align: center;
 }
-
+/*chat gpt code */
 .header p:first-of-type {
     border-bottom: 1px solid #000;
     padding-bottom: 5px;
@@ -54,24 +54,24 @@ body {
 .bold {
     font-weight: bold;
 }
-
+/*chat gpt code */
 .left-text {
     text-align: left;
 }
-
+/*chat gpt code */
 .right-text {
     text-align: right;
 }
-
+/*chat gpt code */
 .split-text {
     display: flex;
     justify-content: space-between;
 }
-
+/*chat gpt code */
 .split-text .bold, .split-text .right-text {
     margin: 0; /
 }
-
+/*chat gpt code */
 .header h1, .section h2 {
     margin-bottom: 10px;
     text-align: center;
