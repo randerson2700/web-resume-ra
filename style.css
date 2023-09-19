@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f0f0f0;
     color: #333;
+    font-size: 12pt;
 }
 
 .container {
@@ -18,7 +19,7 @@ body {
     margin-bottom: 20px;
 }
 
-.header h1 {
+.header h2 {
     margin: 0;
     text-align: center;
 }
@@ -31,6 +32,7 @@ body {
 
 .header p {
     margin: 5px 0;
+    line-height: 1.2;
 }
 
 .section h2 {
@@ -41,6 +43,7 @@ body {
 
 .section p, .section li {
     margin: 5px 0;
+    line-height: 1.2;
 }
 
 .section ul {
@@ -67,4 +70,13 @@ body {
 
 .split-text .bold, .split-text .right-text {
     margin: 0; /
+}
+
+.header h1, .section h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2; /* Adjusted line-height */
+    margin-top: 0; /* Removed top margin to reduce space above headers */
+    margin-bottom: 0.5em; /* Adjusted bottom margin to reduce space below headers */
 }
